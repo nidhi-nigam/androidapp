@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nidhi.example.com.project.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="2">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="255dp"
+    android:gravity="center"
+    android:background="#ab947d">
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:clickable="true"
+        android:onClick="home1"
+        app:fabSize="mini"
+        app:srcCompat="@drawable/ic_home_black_24dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Home                  "
+        android:textSize="30sp"/>
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="255dp"
+    android:gravity="center"
+    android:background="#fdefe2">
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:clickable="true"
+        android:onClick="edit_contacts"
+        app:fabSize="mini"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Contacts            "
+        android:textSize="30sp"/>
+</LinearLayout>
+
+
+
+
+</LinearLayout>
